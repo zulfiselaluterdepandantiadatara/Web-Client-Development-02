@@ -27,7 +27,7 @@ The JavaScript implementations are straightforward and focus on proper variable 
 
 ### Running JavaScript Files:
 ```bash
-node task1-temperature.js
+node 01convertFahrenheitToCelsius.js
 ```
 
 ## TypeScript Implementation
