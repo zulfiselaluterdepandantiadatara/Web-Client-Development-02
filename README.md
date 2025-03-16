@@ -19,11 +19,11 @@ Each task is implemented in both JavaScript and TypeScript to demonstrate the di
 The JavaScript implementations are straightforward and focus on proper variable usage (`let` vs `const`).
 
 ### Files:
-- `task1-temperature.js` - Temperature converter
-- `task2-length-converter.js` - Length unit converter
-- `task3-even-odd.js` - Even/odd number checker
-- `task4-remove-string.js` - String manipulation
-- `task5-palindrome.js` - Palindrome checker
+- `01convertFahrenheitToCelsius.js` - Temperature converter
+- `02convertDistance.js` - Length unit converter
+- `03isEvenOrOdd.js` - Even/odd number checker
+- `04removeFirstOccurrence.js` - String manipulation
+- `05isPalindrome.js` - Palindrome checker
 
 ### Running JavaScript Files:
 ```bash
@@ -35,12 +35,12 @@ node task1-temperature.js
 The TypeScript implementations add static type checking to the JavaScript solutions.
 
 ### Files:
-- `task1-temperature.ts` - Temperature converter with type annotations
-- `task2-length-converter.ts` - Length unit converter with type annotations
-- `task3-even-odd.ts` - Even/odd number checker with type annotations
-- `task4-remove-string.ts` - String manipulation with type annotations
-- `task5-palindrome.ts` - Palindrome checker with type annotations
-- `tsconfig.json` - TypeScript configuration file
+- `01convertFahrenheitToCelsius.ts` - Temperature converter with type annotations
+- `02convertDistance.ts` - Length unit converter with type annotations
+- `03isEvenOrOdd.ts` - Even/odd number checker with type annotations
+- `04removeFirstOccurrence.ts` - String manipulation with type annotations
+- `05isPalindrome.ts` - Palindrome checker with type annotations
+
 
 ### Setup TypeScript:
 ```bash
@@ -54,10 +54,10 @@ tsc
 ### Running TypeScript Files:
 ```bash
 # Using ts-node (if installed)
-ts-node task1-temperature.ts
+ts-node 01convertFahrenheitToCelsius.ts
 
 # Or running the compiled JavaScript
-node dist/task1-temperature.js
+node dist/01convertFahrenheitToCelsius.js
 ```
 
 ## Key Concepts Demonstrated
